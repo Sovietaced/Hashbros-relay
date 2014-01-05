@@ -1,4 +1,4 @@
-servers = ["direct-mine.hashbros.co.in"]
+servers = ["162.243.221.191"]
 servers.each do |server|
 	role :web, server                # Your HTTP server, Apache/etc
 	role :app, server                # This may be the same as your `Web` server

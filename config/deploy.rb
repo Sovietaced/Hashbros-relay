@@ -2,7 +2,7 @@ require "capistrano/ext/multistage"
 require "bundler/capistrano"
 require "rvm/capistrano"
 
-set :application, "Hashbros-coin"
+set :application, "Hashbros-relay"
 set :stages, ["production"]
 set :default_stage, "production"
 
