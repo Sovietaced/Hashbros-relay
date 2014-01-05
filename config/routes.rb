@@ -7,6 +7,7 @@ HashbrosRelay::Application.routes.draw do
 
   # Example of regular route:
   get 'relay' => 'relay#index'
+  post 'set' => 'relay#set'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
