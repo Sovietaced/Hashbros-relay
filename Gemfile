@@ -30,6 +30,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'settingslogic'
+
 # Use whenever for cron jobs!
 gem 'whenever', :require => false
 
