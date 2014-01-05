@@ -7,6 +7,7 @@ set :stages, ["production"]
 set :default_stage, "production"
 
 default_run_options[:pty] = true
+set :ssh_options, {:forward_agent => true}
 
 set :scm, :git
 set :repository,  "git@github.com:Sovietaced/Hashbros-relay.git"
