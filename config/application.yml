@@ -1,0 +1,12 @@
+# config/application.yml
+defaults: &defaults
+  url: ""
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
