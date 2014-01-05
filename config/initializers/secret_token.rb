@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-HashbrosRelay::Application.config.secret_key_base = 'e97be6c6d2075fb5ff5f6d7bbe2e10cfa959df2f193422a2a62b0fde1bb97ce7eaf292ec58a55218bf1fe2b6dd713b3d2fe35364cc16545a227e127a8183f8d8'
+HashbrosRelay::Application.config.secret_key_base = '45cafe07f6948059ba0fc8e67e182b96ed7d39576190620e6d088bd02376196f4100ad238b730e32cd24e06d3d94977d9b68d6b0512672a3ca5a9c7ea0eaab25'
